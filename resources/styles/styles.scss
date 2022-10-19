@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Lemon;
+    src: url(../font/LEMONMILK-Regular.otf);
+  }
+
+
+body{
+font-family: Lemon;
+font-weight: regular;
+p.text{
+    margin-left: 1rem;
+}
+    nav.BC{
+        font-size: .8rem;
+         background-color: white;
+        padding: .5rem 1.5rem;
+        margin-bottom: 2rem;
+        box-shadow: -2px 10px 11px -9px rgba(0,0,0,0.24);
+        -webkit-box-shadow: -2px 10px 11px -9px rgba(0,0,0,0.24);
+        -moz-box-shadow: -2px 10px 11px -9px rgba(0,0,0,0.24);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        ol.breadcrumb{
+            margin-top: .5rem;
+        }
+    }
+    div.menu{
+        margin-top: 5rem;
+        z-index: 1;
+    }
+    div.container-md.form{
+        margin-top: 5rem;
+        z-index: 1;
+    }
+    div.list-group{
+        margin-top: 2rem;
+        a{
+            text-align: center;
+        }
+    }
+    .form-label{
+        font-size: .8rem!important;
+    }
+    .btn-outline-success{
+        color:     var(--bs-indigo);
+        border-color:var(--bs-indigo);
+        &:hover{
+            color: white;
+            background-color: var(--bs-indigo);
+        }
+    }
+    .smaller{
+        font-size: .8rem;
+    }
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-button {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #404040;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+  &:hover {
+    background: #454545;
+  }
+  &:active {
+    background: #fffafa;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f0f0;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+  &:hover {
+    background: #e8e8e8;
+  }
+  &:active {
+    background: #333333;
+  }
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
